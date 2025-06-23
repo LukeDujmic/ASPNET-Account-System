@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="10cb7026-b1bb-490d-a1f4-0b506d7dc93e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://venus.sod.asu.edu/WSRepository/Services/ImageVerifierService/Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="85ba3739-0afb-4124-953e-a5cbf62611b0" SourceId="1" SourceUrl="https://venus.sod.asu.edu/WSRepository/Services/ImageVerifierService/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service.disco" MetadataType="Disco" ID="f83483d4-cad7-46b0-bcaa-ed025d595721" SourceId="1" SourceUrl="https://venus.sod.asu.edu/WSRepository/Services/ImageVerifierService/Service.svc?disco" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="456afac8-8780-448a-807e-88d8edcd9d44" SourceId="1" SourceUrl="https://venus.sod.asu.edu/WSRepository/Services/ImageVerifierService/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="bb26a710-873f-4fbc-9e0f-690dbe9d4322" SourceId="1" SourceUrl="https://venus.sod.asu.edu/WSRepository/Services/ImageVerifierService/Service.svc?wsdl" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="1485e8a6-c984-4d97-a86e-7942fdcfa69d" SourceId="1" SourceUrl="https://venus.sod.asu.edu/WSRepository/Services/ImageVerifierService/Service.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
